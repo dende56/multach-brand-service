@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 body {
-   font-family: sans-serif;
+   font-family: 'Inter', sans-serif;
    color: #12122A;
    background-color: #F9F9F9;
    height: 100%;
@@ -430,4 +432,86 @@ transition: all 0.5s;
    color: #fff;
    padding: 24px;
    text-align: center;
+}
+
+.video {
+   background-color: #a8d741;
+   padding: 80px 60px 80px 60px;
+   border-radius: 36px;
+   margin-bottom: 60px;
+}
+
+.video-title {
+   font-size: 3em;
+   font-weight: 600;
+   padding-bottom: 0.5em;
+   text-align: center;
+   color: #f8f6f6;
+   font-family: sans-serif;
+}
+
+.video-wrapper {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.video-wrapper iframe {
+   border-radius: 24px;
+   overflow: hidden;
+}
+
+.company-list {
+   margin: 0 0px 80px;
+   padding: 0 30px;
+}
+
+.company-list__wrapper {
+   display: flex;
+   justify-content: space-around;
+   gap: 2em;
+}
+
+.company-list__item {
+   border-radius: 24px;
+   background-color: #EEEEEE;
+}
+
+.company-list .item {
+   display: flex;
+   flex-direction: column;
+   padding: 1.5em;
+   text-align: center;
+   align-items: center;
+   width: 100%;
+}
+
+.company-list .item__logo {
+   width: 60%;
+   padding-bottom: 1.5em;
+}
+
+.company-list .item__title {
+   font-size: 1.6em;
+   font-weight: 400;
+   padding-bottom: 0.5em;
+}
+
+.company-list .item__description {
+   font-size: 0.9em;
+   padding-bottom: 2em;
+   color: #696969;
+   /* flex: 1; */
+   flex-grow: 1;
+}
+
+.company-list .item__button {
+   max-width: 160px;
+   margin: 0 auto;
+   background-color: #A8D741;
+   padding: 12px 25px;
+   border-radius: 24px;
+   border: 1px solid #000;
+   font-size: 0.9em;
 }
